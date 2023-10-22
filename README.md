@@ -13,9 +13,9 @@
   	-Number id
     -String musica
     -Date tempo
-    + tocar(): void
+    + tocar(Number id): void
     + pausar(Date tempo): void
-    + selecionarMusica(int id): void
+    + selecionarMusica(Number id): void
   }
 
   class NavegadorInternet {
