@@ -20,9 +20,9 @@
 
   class NavegadorInternet {
     -String urlPagina
-    +exibirPagina()
-    +adicionarNovaAba()
-    +atualizarPagina()
+    +exibirPagina(): void
+    +adicionarNovaAba(): void
+    +atualizarPagina(): void
   }
 
   AparelhoTelefonico "1" *-- "N" ReprodutorMusicial
